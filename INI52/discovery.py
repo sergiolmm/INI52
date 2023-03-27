@@ -29,7 +29,7 @@ try:
     while True:
         res, addr = s.recvfrom(1024 + 512)
         resposta = res.decode()
-        print("a",ends="")
+        print("a",end="")
         print(resposta)
 
 except OSError:
